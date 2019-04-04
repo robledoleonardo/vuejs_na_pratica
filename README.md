@@ -1,6 +1,6 @@
-# vuejsnapratica
+# VueJS na prática
 
-> A Vue.js project
+> Um projeto Vue.js
 
 ## Build Setup
 
