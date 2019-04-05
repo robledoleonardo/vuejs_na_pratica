@@ -11,7 +11,7 @@
 				<thead>
 					<tr>
 						<th>Nome</th>
-						<th width="200" class="text-center">Telefone</th>
+						<th width="200" class="text-center" >Telefone</th>
 						<th width="100"></th>
 					</tr>
 				</thead>
@@ -52,8 +52,7 @@
 					this.$localStorage.set('contatos',[])
 				}
 
-				this.contatos = this.$localStorage.get('contatos');
-				console.log(this.contatos,'=')
+				this.contatos = this.$localStorage.get('contatos')
 			},
 			remover(email){
 				let novos_contatos = this.contatos.filter(contato=>{
