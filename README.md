@@ -1,4 +1,6 @@
-# vuejsnapratica2
+# VueJS na prática
+
+## Um projeto Vue.js [Demo](https://vuejs-na-pratica-v1.netlify.com)
 
 ## Project setup
 ```
@@ -13,16 +15,6 @@ yarn run serve
 ### Compiles and minifies for production
 ```
 yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
 ```
 
 ### Customize configuration
