@@ -46,7 +46,7 @@ export default {
 	},
 	methods:{
 		load(){
-			if(!this.$localStorage.haskey('contatos')){
+			if(!this.$localStorage.hasKey('contatos')){
 				this.$localStorage.set('contatos',[])
 			}
 
