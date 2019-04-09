@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.a4da88d83073bbc161207a117f6f250d.js"
+  "/precache-manifest.38b695edf66eca243489056addcfe9bc.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vuejsnapratica"});

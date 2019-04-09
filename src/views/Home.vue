@@ -46,6 +46,10 @@ export default {
 	},
 	methods:{
 		load(){
+			if(!this.$localStorage.haskey('contatos')){
+				this.$localStorage.set('contatos',[])
+			}
+
 			this.contatos = this.$localStorage.get('contatos')
 		},
 		remover(email){
