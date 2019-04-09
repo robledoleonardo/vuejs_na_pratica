@@ -4,13 +4,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App'
-}
-</script>
-
 <style>
-  @import 'bootstrap/dist/css/bootstrap.css';
-  @import 'font-awesome/css/font-awesome.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
 </style>
